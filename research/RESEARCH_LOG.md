@@ -4,7 +4,7 @@ This log documents the academic and technical research driving the development o
 
 ---
 
-## [Date] | Paper: Apllication of ML Models in Optimizing WWTPs (2025)
+## 11th February 2026 | Paper: Apllication of ML Models in Optimizing WWTPs (2025)
 
 **Source:** DOI: 10.3390/app15158360
 **Focus:** Model Selection for Limited Data
