@@ -21,6 +21,6 @@ This project develops a **"Digital Soft-Sensor"** system using the UCI Wastewate
 
 This project is not built in a vacuum. The modeling strategy and feature engineering are informed by current peer-reviewed literature:
 
-* **Algorithm Selection**: Based on *Ching et al. (2022)*, implementing XGBoost to handle non-linear biological shock loads.
+* **Algorithm Selection**: Based on *Zamfir et al. (2025)*, Apllication of ML Models in Optimizing WWTPs.
 
 * **Time-Series Alignment**: Utilizing lag-analysis to account for **Hydraulic Retention Time (HRT)** as suggested by *Hamada et al. (2024)*.
