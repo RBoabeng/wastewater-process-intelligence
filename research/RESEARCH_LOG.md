@@ -1,4 +1,4 @@
-# 🔬 Research & Implementation Log
+#  Research & Implementation Log
 
 This log documents the academic and technical research driving the development of the **Wastewater Process Intelligence** system. Each entry connects theoretical insights to specific project features.
 
