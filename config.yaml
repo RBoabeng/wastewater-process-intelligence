@@ -1,0 +1,29 @@
+# config.yaml
+paths:
+  raw_data: "data/processed/clean_wastewater_data.csv"
+  model_save: "models/bod_predictor.joblib"
+
+# config.yaml
+model:
+  type: "RandomForest"  # Options: "RandomForest" or "SVM"
+  
+  # Parameters for Random Forest
+  random_forest:
+    n_estimators: 300
+    max_depth: 15
+    random_state: 42
+    
+  # Parameters for SVM
+  svm:
+    kernel: "rbf"
+    C: 10
+    gamma: 0.1
+    
+features:
+  cols:
+    - "Q_E_Input_Flow"
+    - "PH_E_Input_pH"
+    - "COND_E_Input_Conductivity"
+    - "DQO_E_Input_COD"
+    - "sin_month"
+    - "cos_month"
