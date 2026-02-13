@@ -216,4 +216,4 @@ data/processed/*
 
 # pdf file
 *.pdf
-*.doc
+*.docx
