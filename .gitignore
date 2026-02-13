@@ -213,3 +213,7 @@ data/processed/*
 # Except for the .gitkeep file (this keeps the folder structure visible on GitHub)
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# pdf file
+*.pdf
+*.doc
