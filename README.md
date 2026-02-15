@@ -35,8 +35,8 @@ wastewater_project/
 │   ├── features.py        # Feature Engineering (Cyclical Time)
 │   ├── model.py           # Model Factory (RandomForest/SVM)
 │   └── main.py            # Automated Training Pipeline
-├── MODEL_CARD.md          # ⚖️ Regulatory Transparency Document
-├── reflection_essay.md    # 📝 Reflection on EU AI Act & Ethics
+├── MODEL_CARD.md          # Regulatory Transparency Document
+├── reflection_essay.md    # Reflection on EU AI Act & Ethics
 └── README.md              # You are here
 ```
 
@@ -46,7 +46,9 @@ wastewater_project/
 
 Clone the repository and install dependencies:
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
+
 ```
 
 *(Dependencies include: `fastapi`, `uvicorn`, `pandas`, `scikit-learn`, `pyyaml`, `mlflow`)*
@@ -56,7 +58,9 @@ Clone the repository and install dependencies:
 
 Run the MLOps pipeline to process data, engineer features, and train the model. This reads settings from `config.yaml`.
 
-```python src/main.py
+```
+python src/main.py
+
 ```
 
 * **Output:** Saves a trained model to `models/bod_predictor.joblib`.
@@ -67,7 +71,9 @@ Run the MLOps pipeline to process data, engineer features, and train the model. 
 
 Start the FastAPI server to serve predictions and monitor health.
 
-```uvicorn api.main:app --reload
+```
+uvicorn api.main:app --reload
+
 ```
 * **API Docs:** <http://127.0.0.1:8000/docs>
 
@@ -95,9 +101,11 @@ This project adheres to Article 13 (Transparency) of the EU AI Act for High-Risk
 To handle the biological seasonality of wastewater without creating discontinuities at year-end, we implemented **Cyclical Time Encoding:**
 
 ```
+
 # Converting linear "Month" into continuous coordinates
 df['sin_month'] = np.sin(2 * np.pi * df['Month'] / 12)
 df['cos_month'] = np.cos(2 * np.pi * df['Month'] / 12)
+
 ```
 
 This ensures the model understands that December (12) and January (1) are neighbors.
