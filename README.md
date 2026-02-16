@@ -36,7 +36,7 @@ wastewater_project/
 │   ├── model.py           # Model Factory (RandomForest/SVM)
 │   └── main.py            # Automated Training Pipeline
 ├── MODEL_CARD.md          # Regulatory Transparency Document
-├── reflection_essay.md    # Reflection on EU AI Act & Ethics
+├── report.md    # Executive summary
 └── README.md              # You are here
 ```
 
