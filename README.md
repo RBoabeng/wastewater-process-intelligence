@@ -5,6 +5,7 @@
 [![EU AI Act](https://img.shields.io/badge/Compliance-EU_AI_Act-violet)](MODEL_CARD.md)
 [![Status](https://img.shields.io/badge/Status-Production_Ready-success)]()
 [![Executive Summary](https://img.shields.io/badge/Report-Executive_Summary-blue)](report.md)
+![Project Banner](assets/cover_image.jpg)
 
 ## Overview
 
