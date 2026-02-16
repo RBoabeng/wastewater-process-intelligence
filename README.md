@@ -4,6 +4,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-Deployment-green)](https://fastapi.tiangolo.com/)
 [![EU AI Act](https://img.shields.io/badge/Compliance-EU_AI_Act-violet)](MODEL_CARD.md)
 [![Status](https://img.shields.io/badge/Status-Production_Ready-success)]()
+[![Executive Summary](https://img.shields.io/badge/Report-Executive_Summary-blue)](report.md)
 
 ## Overview
 
